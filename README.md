@@ -20,5 +20,5 @@ In development/test/server builds you will get the following
 In production you will get the real stripe client library
 
 ```javascript
-<script type="text/javascript" src="//static.twilio.com/libs/twiliojs/1.2/twilio.min.js"></script>
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 ```
