@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-patch-stripejs",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "A simple addon to patch the Stripe object for JS",
   "scripts": {
     "start": "ember server",
