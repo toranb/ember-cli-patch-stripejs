@@ -1,21 +1,24 @@
 {
   "name": "ember-cli-patch-stripejs",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
-  },
+  "version": "0.0.1",
+  "description": "A simple addon to patch the Stripe object for JS",
   "scripts": {
     "start": "ember server",
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "homepage": "https://github.com/williamsbdev/ember-cli-patch-stripejs",
+  "bugs": {
+      "url": "https://github.com/williamsbdev/ember-cli-patch-stripejs/issues"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/williamsbdev/ember-cli-patch-stripejs"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Brandon Williams williamsbdev@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
@@ -35,7 +38,11 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember",
+    "ember-addon",
+    "ember-cli",
+    "stripejs",
+    "stripe"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
