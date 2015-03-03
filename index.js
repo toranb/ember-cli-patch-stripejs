@@ -10,9 +10,12 @@ module.exports = {
       } else {
           return '<script type="text/javascript">' +
               'var Stripe = {' +
-                  'setPublishableKey: function(){ console.log("Setting publishable key.") },' +
+                  'setPublishableKey: function() { console.log("Setting publishable key.") },' +
                   'card: {' +
-                      'createToken: function(){ console.log("createToken was called.") }' +
+                      'createToken: function(card, callback) { ' +
+                          'console.log("createToken was called.");' +
+                          'callback(status, response);' +
+                      '}' +
                   ' }' +
               ' }' +
               '</script>';
